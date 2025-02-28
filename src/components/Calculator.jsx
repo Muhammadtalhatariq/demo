@@ -37,7 +37,7 @@ const Calculator = () => {
 
     return (
         <>
-            <div className='flex justify-center items-center flex-col py-16'>
+            <div className='flex justify-center items-center flex-col md:py-16 py-6'>
                 <p className='bg-neutral-700 rounded-t-full px-8 py-1 text-neutral-300 text-[10px] tracking-[2px]'>PAY ONLY FOR WHAT YOU USE</p>
                 <div className='bg-neutral-800 text-white p-2 md:w-4/5 w-full md:h-[400px] h-[1000px] flex flex-wrap '>
                     {/* left section  */}

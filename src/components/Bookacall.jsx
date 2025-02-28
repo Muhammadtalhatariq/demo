@@ -5,11 +5,11 @@ const Bookacall = () => {
         <>
             <div className='flex flex-wrap md:noflex-wrap md:mx-20'>
                 <div className='left md:w-1/2 w-full h-72 md:py-16 md:px-10 p-4'>
-                    <p className=''>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis aut quos deserunt adipisci, eveniet ex in consectetur rerum sequi, doloremque ullam, esse fugiat sapiente dignissimos neque quas asperiores dolor? In.
+                    <p className='pr-10'>
+                      Our Fractional CRO/UX service provides a team of expert who act as your CRO/UX department. Deep diving into data, uncovering insights and providing actionable suggestions to drive improvement.  
                     </p>
-                    <p className='pt-6'>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis aut quos deserunt adipisci, eveniet ex in consectetur rerum sequi, doloremque ullam, esse fugiat sapiente dignissimos neque quas asperiores dolor? In.
+                    <p className='pt-6 pr-10 '>
+                      We leverage your team's expertise to determine execition and priorities . Unlock your teams full protential of data-driven growth with our support and guidance.
                     </p>
                     <button className='font-semibold tracking-tight bg-green-400 hover:bg-white duration-700 py-2 px-4 my-4 rounded-md'>Book a Call</button>
                 </div>

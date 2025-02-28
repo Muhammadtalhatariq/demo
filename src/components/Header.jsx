@@ -11,7 +11,9 @@ const Header = () => {
     return (
         <>
             <div className='flex justify-between items-center md:p-4 md:mx-20'>
-                <div className='hidden md:flex'>logo</div>
+                <div className='hidden md:flex'>
+                    <img className='size-10' src="/logo.png" alt="" />
+                </div>
                 <div>
                     <ul className='md:flex hidden gap-6 pl-40'>
                         <li>
@@ -29,10 +31,11 @@ const Header = () => {
                     <button className='font-semibold tracking-tight hover:bg-green-500 duration-700 p-2 rounded-md'>Login</button>
                     <button className='font-semibold tracking-tight bg-green-500 duration-700 hover:bg-white py-2 px-4 rounded-md'>Create an account</button>
                 </div>
-
                 {/* mvl view  */}
                 <div onClick={handleMenu} className='flex justify-between items-center md:hidden w-full m-4'>
-                  <div>logo</div>
+                <div>
+                    <img className='size-10' src="/logo.png" alt="" />
+                </div>
                     <div>
                         <IoMenuSharp className='md:hidden' />
                     </div>
